@@ -18,9 +18,11 @@ class CategoryListAdapter :
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CategoryViewHolder {
+
         val view =
             LayoutInflater.from(parent.context).inflate(R.layout.item_category, parent, false)
         return CategoryViewHolder(view)
+
     }
 
     override fun onBindViewHolder(holder: CategoryViewHolder, position: Int) {
@@ -49,8 +51,5 @@ class CategoryListAdapter :
         override fun areContentsTheSame(oldItem: CategoryUiData, newItem: CategoryUiData): Boolean {
             return oldItem.name == newItem.name
         }
-
     }
-
-
 }
