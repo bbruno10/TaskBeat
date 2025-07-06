@@ -5,4 +5,9 @@
     <string name="create">Create</string>
     <string name="update_task_title">Update Task</string>
     <string name="update">Update</string>
+    <string name="category_delete_title">Important</string>
+    <string name="delete">Delete</string>
+    <string name="category_delete_description">Deleting this category will delete all tasks associated with it. Are you sure?</string>
+    <string name="empty_category_title">No category found!</string>
+    <string name="empty_category_description">Please create a new category to start adding tasks.</string>
 </resources>
